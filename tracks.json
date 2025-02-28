@@ -1,29 +1,34 @@
 [
   {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
     "title": "chl",
     "artist": "Eddy Music",
     "fileName": "https://eddy.42web.io/Music/chl.mp3",
     "isRemote": true
   },
   {
+    "id": "223e4567-e89b-12d3-a456-426614174001",
     "title": "Little Big - Hypnodancer",
     "artist": "סאבלי צ'פלינסקי",
     "fileName": "https://eddy.42web.io/Music/little-big-hypnodancer.mp3",
     "isRemote": true
   },
   {
+    "id": "323e4567-e89b-12d3-a456-426614174002",
     "title": "Mash",
     "artist": "Max Shermant",
     "fileName": "https://eddy.42web.io/Music/Mash.mp3",
     "isRemote": true
   },
   {
+    "id": "423e4567-e89b-12d3-a456-426614174003",
     "title": "bensound-onrepeat",
     "artist": "Bensound",
     "fileName": "https://docs.google.com/uc?export=download&id=1kFhBu-7Q2cGzyFpKpRgckA-Rp-l8tMxt",
     "isRemote": true
   },
   {
+    "id": "523e4567-e89b-12d3-a456-426614174004",
     "title": "Dreams",
     "artist": "Eddy Music",
     "fileName": "https://eddy.42web.io/Music/bensound-dreams.mp3",
