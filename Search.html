@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <link rel="shortcut icon" href="https://eddy.42web.io/_0d948940-408a-49b7-a666-9f8dc667055f.ico" />
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            direction: rtl; /* Right-to-left text direction for Hebrew */
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gcse-search {
+            margin: 20px 0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            color: #777;
+        }
+        dark-mode {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    .dark-mode header, .dark-mode nav, .dark-mode footer {
+        background-color: #1e1e1e;
+    }
+
+    .dark-mode a {
+        color: #4db6ac;
+    }
+
+    .dark-mode .button {
+        background-color: #6200ea;
+    }
+
+    .dark-mode .button:hover {
+        background-color: #3700b3;
+    }
+
+    .dark-mode .search-container, .dark-mode .main {
+        background-color: #333;
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <center>
+            <img width='100px' height='100px' src='http://eddy.42web.io/_0d948940-408a-49b7-a666-9f8dc667055f.ico'/>
+
+            <h1>Eddy search</h1>
+
+
+            <img id="profile-img" src="" style="display: none; max-width: 100px;">
+
+            <h2>שלום</h2>
+            <h3><p id="cookieValue"></p></h3>
+
+            <button id="darkModeToggle">הדר גיר/אפל</button>
+            
+        </center>
+        
+        <script async src="https://cse.google.com/cse.js?cx=c0bc6ebc1b3be4996">
+        </script>
+        <div class="gcse-search"></div>
+
+        <!--<p>
+            Google offered in:
+            <a dir="ltr" href="https://www.eddy.42web.io/setprefs?sig=0_fv0S2x7k1n3rSHwT2Y8KmhnO2RM%3D&amp;hl=en&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwi9uv3T8oOIAxVwQkEAHfD9A1kQ2ZgBCCI">English</a>
+
+            <a dir="rtl" href="https://www.google.com/setprefs?sig=0_fv0S2x7k1n3rSHwT2Y8KmhnO2RM%3D&amp;hl=ar&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwi1y9z38YOIAxWiTUEAHRdZBPUQ2ZgBCCI">العربية</a>
+
+            <a dir="rtl" href="https://www.google.com/setprefs?sig=0_fv0S2x7k1n3rSHwT2Y8KmhnO2RM%3D&amp;hl=iw&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwi1y9z38YOIAxWiTUEAHRdZBPUQ2ZgBCCE">עברית</a>
+
+        </p>-->
+
+
+        <script>
+        // פונקציה לקרוא את העוגיה
+        function getCookie(name) {
+            let matches = document.cookie.match(new RegExp(
+                '(?:^|; )' + name.replace(/([.$?*|{}\(\)\[\]\/\+^])/g, '\\$1') + '=([^;]*)'
+            ));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
+
+        // קרא את ערך העוגיה בשם "myCookie" והצג אותו
+        let cookieValue = getCookie('myname');
+        document.getElementById('cookieValue').textContent = cookieValue ? cookieValue : 'אורח';
+
+        document.addEventListener("DOMContentLoaded", function () {
+        const darkModeToggle = document.getElementById("darkModeToggle");
+        const body = document.body;
+
+        // בדיקה אם יש מצב כהה שמור בלוקל סטורג'
+        if (localStorage.getItem("darkMode") === "enabled") {
+            body.classList.add("dark-mode");
+        }
+
+        darkModeToggle.addEventListener("click", function () {
+            body.classList.toggle("dark-mode");
+            
+            // שמירת המצב בלוקל סטורג'
+            if (body.classList.contains("dark-mode")) {
+                localStorage.setItem("darkMode", "enabled");
+            } else {
+                localStorage.setItem("darkMode", "disabled");
+            }
+        });
+    });
+
+
+        // קריאת ערכי העוגיות
+    //let cookieValue = getCookie('myname');
+    let imageUrl = getCookie('myImage'); // קבלת כתובת תמונת המשתמש מהעוגיה
+
+
+        // הצגת תמונת המשתמש אם קיימת
+    
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const darkModeToggle = document.getElementById("darkModeToggle");
+        const body = document.body;
+
+        // בדיקה אם יש מצב כהה שמור בלוקל סטורג'
+        if (localStorage.getItem("darkMode") === "enabled") {
+            body.classList.add("dark-mode");
+        }
+
+        darkModeToggle.addEventListener("click", function () {
+            body.classList.toggle("dark-mode");
+            
+            // שמירת המצב בלוקל סטורג'
+            if (body.classList.contains("dark-mode")) {
+                localStorage.setItem("darkMode", "enabled");
+            } else {
+                localStorage.setItem("darkMode", "disabled");
+            }
+        });
+    });
+
+
+    function getCookie(name) {
+            let cookies = document.cookie.split('; ');
+            for (let cookie of cookies) {
+                let [key, value] = cookie.split('=');
+                if (key === name) {
+                    return decodeURIComponent(value);
+                }
+            }
+            return null;
+        }
+
+        let profileImage = getCookie('profile_image');
+        if (profileImage) {
+            let imgElement = document.getElementById('profile-img');
+            imgElement.src = profileImage;
+            imgElement.style.display = 'block';
+        }
+        </script>
+        
+    <footer>
+        <p>© 2024 כל הזכויות שמורות</p>
+    </footer>
+        
+</body>
+</html>
