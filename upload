@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>העלאת קבצים</title>
+    <link rel="shortcut icon" href="https://eddy.42web.io/_0d948940-408a-49b7-a666-9f8dc667055f.ico" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        h2 {
+            color: #007bff;
+        }
+        form {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 600px;
+            text-align: right;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        input[type="file"], input[type="text"], input[type="name"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .info-text {
+            color: #666;
+            font-size: 14px;
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>העלאת קבצים</h1>
+    </header>
+    <main>
+        <h2>העלה קובץ מתוך מחשב</h2>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="fileToUpload">בחר קובץ להעלות:</label>
+            <input type="file" id="fileToUpload" name="fileToUpload" aria-required="true" required>
+            <label for="fileName">שם הקובץ שיישמר:</label>
+            <input type="text" id="fileName" name="fileName" aria-required="true" placeholder="הזן שם קובץ" required>
+            <button type="submit" name="uploadFile" aria-label="העלה קובץ מתוך מחשב">העלה קובץ</button>
+        </form>
+
+        <h2>העלה קובץ מקישור</h2>
+        <form action="upload.php" method="post">
+            <label for="fileUrl">הכנס קישור לקובץ:</label>
+            <input type="text" id="fileUrl" name="fileUrl" aria-required="true" required>
+            <label for="fileNameUrl">שם הקובץ שיישמר:</label>
+            <input type="text" id="fileNameUrl" name="fileNameUrl" aria-required="true" placeholder="הזן שם קובץ" required>
+            <button type="submit" name="uploadUrl" aria-label="העלה קובץ מקישור">העלה קובץ</button>
+        </form>
+    </main>
+</body>
+</html>
