@@ -1,6 +1,6 @@
 <?php
 // Directory to save uploaded files
-$targetDir = "post/";
+$targetDir = "post";
 
 // Handle file uploads from computer
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
