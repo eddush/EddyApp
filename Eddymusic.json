@@ -1,8 +1,14 @@
 [
   {
-    "title": "music1",
+    "title": "Mash2",
     "artist": "AI",
-    "url": "https://eddy.42web.io/Music/bensound-softvibes.mp3",
+    "url": "https://drive.google.com/uc?export=download&id=1BwV5KdYLbujhnYGZGyUQJqSZBmw9_AeF",
     "cover": "http://eddy.42web.io/_0d948940-408a-49b7-a666-9f8dc667055f.ico"
+  },
+  {
+    "title": "Chicken banana",
+    "artist": "CNC",
+    "url": "https://drive.google.com/uc?export=download&id=1GytyWCy0bXWqA4PlYbSQIwW5MeXHRQaE",
+    "cover": "https://i.ytimg.com/vi/wFhfl7zmSRQ/maxresdefault.jpg"
   }
 ]
