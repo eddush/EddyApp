@@ -2,12 +2,12 @@
   {
     "title": "Mash2",
     "artist": "AI",
-    "url": "https://eddy.42web.io/Music/mash2.mp3",
-    "cover": "https://cdn2.suno.ai/image_9ddf8b04-8534-4902-becd-f03f092be7c2.jpeg?width=100"
+    "url": "https://drive.google.com/uc?export=download&id=1BwV5KdYLbujhnYGZGyUQJqSZBmw9_AeF",
+    "cover": "http://eddy.42web.io/_0d948940-408a-49b7-a666-9f8dc667055f.ico"
   },
   {
     "title": "Chicken banana",
-    "artist": "CMC",
+    "artist": "CNC",
     "url": "https://drive.google.com/uc?export=download&id=1GytyWCy0bXWqA4PlYbSQIwW5MeXHRQaE",
     "cover": "https://i.ytimg.com/vi/wFhfl7zmSRQ/maxresdefault.jpg"
   },
@@ -20,5 +20,10 @@
     "title": "Eddy music",
     "artist": "Eddy",
     "url": "https://eddy.42web.io/Music/%D7%A9%D7%99%D7%A8%202.m4a"
+  },
+  {
+    "title": "chl",
+    "artist": "Max",
+    "url": "https://eddy.42web.io/Music/chl.mp3?i=1"
   }
 ]
