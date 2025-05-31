@@ -26,4 +26,10 @@
     "artist": "Max",
     "url": "https://eddy.42web.io/Music/chl.mp3?i=1"
   }
+   {
+    "title": "Baby sing",
+    "artist": "Eddy Shermant",
+    "url": "http://eddy.42web.io/Music/autotune2.mp3",
+    "cover": "http://eddy.42web.io/IMG_2082.PNG"
+  }
 ]
