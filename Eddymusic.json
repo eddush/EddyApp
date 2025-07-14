@@ -31,5 +31,11 @@
     "artist": "Eddy Shermant",
     "url": "http://eddy.42web.io/Music/autotune2.mp3",
     "cover": "http://eddy.42web.io/IMG_2082.PNG"
+  },
+  {
+    "title": "Bot",
+    "artist": "AI",
+    "url": "https://eddy.42web.io/Music/Bot.mp3",
+    "cover": "https://cdn2.suno.ai/image_large_89d2da08-3470-4ab3-9365-5dcd65d66c5d.jpeg"
   }
 ]
