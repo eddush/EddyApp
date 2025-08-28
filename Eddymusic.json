@@ -1,7 +1,7 @@
 [
   {
     "title": "Mash2",
-    "artist": "AI",
+    "artist": "<i class=\"fa-solid fa-microchip\"></i> AI",
     "url": "https://eddy.42web.io/Music/mash2.mp3",
     "cover": "http://eddy.42web.io/animation_preview.gif"
   },
@@ -19,7 +19,7 @@
   {
     "title": "Eddy music",
     "artist": "Eddy",
-    "url": "https://eddy.42web.io/Music/%D7%A9%D7%99%D7%A8%202.m4a"
+    "url": "https://eddy.42web.io/Music/shir2.m4a"
   },
   {
     "title": "chl",
@@ -30,12 +30,12 @@
   {
     "title": "Baby sing",
     "artist": "Eddy Shermant",
-    "url": "http://eddy.42web.io/Music/autotune2.mp3",
-    "cover": "http://eddy.42web.io/IMG_2082.PNG"
+    "url": "https://eddy.42web.io/Music/autotune2.mp3",
+    "cover": "https://eddy.42web.io/IMG_2082.PNG"
   },
   {
     "title": "Bot",
-    "artist": "AI",
+    "artist": "<i class=\"fa-solid fa-microchip\"></i> AI",
     "url": "https://eddy.42web.io/Music/Bot.mp3",
     "cover": "https://cdn2.suno.ai/image_large_89d2da08-3470-4ab3-9365-5dcd65d66c5d.jpeg"
   }
